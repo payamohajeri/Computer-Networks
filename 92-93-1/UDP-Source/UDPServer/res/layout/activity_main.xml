@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Message" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send" />
+
+	<Button
+        android:id="@+id/clr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clear History" />
+    
+    <Button
+        android:id="@+id/ext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="exit" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1.23"
+        android:text="Communication History:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="10sp"
+        android:scrollbars = "vertical"
+        android:maxLines = "100" />
+
+</LinearLayout>
